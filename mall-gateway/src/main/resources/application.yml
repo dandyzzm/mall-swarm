@@ -4,7 +4,7 @@ spring:
   application:
     name: mall-gateway
   profiles:
-    active: prod
+    active: dev
   cloud:
     gateway:
       discovery:

@@ -5,7 +5,7 @@ spring:
     name: mall-registry
 eureka:
   instance:
-    hostname: 192.168.180.128
+    hostname: localhost
   client:
     fetch-registry: false
     register-with-eureka: false
