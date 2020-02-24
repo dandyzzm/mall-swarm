@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface FeignPortalService {
 
     @PostMapping("/sso/login")
-    CommonResult login(@RequestParam String username, @RequestParam String password);
+    CommonResult login(@RequestParam("username") String username, @RequestParam("password") String password);
 
     @GetMapping("/cart/list")
     CommonResult list();

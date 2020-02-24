@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: prod
   application:
     name: mall-monitor
   security: # 配置登录用户名和密码
